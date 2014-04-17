@@ -2,7 +2,7 @@
 --
 -- Title       : PRISM
 -- Design      : PRISM
--- Author      : usafa
+-- Author      : usafa/Dusty Weisner
 -- Company     : usafa
 --
 -------------------------------------------------------------------------------
