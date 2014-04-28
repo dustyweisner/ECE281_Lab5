@@ -4,7 +4,7 @@ ECE281_Lab5
 PRISM Programming
 
 
-__*BOTH PRISM PROGRAMS 1 AND 2 CHECKED BY DR. NEEBEL*__
+__*BOTH PRISM PROGRAMS 1, 2, and COOL_PROGRAM CHECKED BY DR. NEEBEL*__
 
 
 __*1st PRISM Program*__
@@ -35,7 +35,7 @@ The 2nd PRISM PROGRAM Counted from 0-99 or backwards depending on if the input w
 ![](https://github.com/dustyweisner/ECE281_Lab5/blob/master/Flowchart.GIF?raw=true)
 
 
-I created the COOL_PROGRAM, which counts in a loop from 1-9 in a single OUPUT. It starts at output zero, but if only the first input is 1, the output shifts left one output(or back to OUTPUT 3). Also it shifts the other way if only the 2nd input is 1. If they are both 1, or both anything other than 1, the program keeps the output in the current output. The PRISM program of the loop is in my ECE281_Lab5 repository, and it has FULL FUNCTIONALITY.
+I created the COOL_PROGRAM, which counts in a loop from 1-9 in a single OUPUT. It starts at output zero, but if only the first input is 1, the output shifts left one output(or back to OUTPUT 3). Also it shifts the other way if only the 2nd input is 1. If they are both 1, or both anything other than 1, the program keeps the output in the current output. The PRISM program of the loop is in my ECE281_Lab5 repository, and it has FULL FUNCTIONALITY. Also in VHDL the code has full functionality at ClockbusSig(19) (in Nexys Top Shell).
 
 
 __*QUESTIONS AND ANSWERS*__
@@ -57,7 +57,7 @@ __*QUESTIONS AND ANSWERS*__
 3.	What are the three status signals sent from the PRISM datapath to the PRISM controller?
 
 
-  A = 0, A < 0, and 1
+  For A = 0 and A < 0, there could respectively be 0 and 0, 0 and 1, or 1 and 0.
 
 
 4.	Why is it important that ACCLd signal be active during the execute state for the ADDI instruction?
