@@ -29,7 +29,11 @@ To delve into the program, look at the four snippets below this paragraph. The s
 __*2nd PRISM Program*__
 
 
-The 2nd PRISM PROGRAM Counted from 0-99 or backwards depending on if the input was positive or negative.
+The 2nd PRISM PROGRAM Counted from 0-99 or backwards depending on if the input was positive or negative. Below is the flowchart, built in USAFs Raptor program:
+
+
+![](https://github.com/dustyweisner/ECE281_Lab5/blob/master/Flowchart.GIF?raw=true)
+
 
 I created the COOL_PROGRAM, which counts in a loop from 1-9 in a single OUPUT. It starts at output zero, but if only the first input is 1, the output shifts left one output(or back to OUTPUT 3). Also it shifts the other way if only the 2nd input is 1. If they are both 1, or both anything other than 1, the program keeps the output in the current output. The PRISM program of the loop is in my ECE281_Lab5 repository, and it has FULL FUNCTIONALITY.
 
